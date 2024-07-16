@@ -1,0 +1,29 @@
+
+Relatório de Análise de Organizações na Seção "Mercado" (Q1 2015)
+
+Metodologia:
+1. Carregamos os dados das notícias.
+2. Filtramos as notícias da seção "Mercado" no primeiro trimestre de 2015.
+3. Utilizamos um modelo NER (Reconhecimento de Entidades Nomeadas) para extrair nomes de organizações mencionadas nas notícias.
+4. Filtramos as organizações com mais de uma letra.
+5. Contamos a frequência de cada organização mencionada.
+6. Geramos visualizações para apresentar os resultados.
+
+Resultados:
+As 10 organizações mais mencionadas foram:
+   Organization  Frequency
+           HSBC         46
+      Moody ' s         39
+      Bloomberg         38
+           Vale         21
+  BM & FBovespa         21
+           Sete         21
+     Volkswagen         19
+   McDonald ' s         18
+          S & P         17
+Cifras & Letras         16
+
+A visualização gerada mostra a frequência das organizações mencionadas.
+
+Conclusão:
+Este relatório fornece uma visão detalhada das organizações mais mencionadas na seção "Mercado" no primeiro trimestre de 2015, com base nas notícias analisadas.
