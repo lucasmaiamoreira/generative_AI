@@ -43,8 +43,8 @@ Obs.: Qualquer problema na instalação do Ollama é possível verificar no site
 Clone este repositório para a sua máquina local:
 
 ```
-git clone <URL_DO_REPOSITORIO>
-cd <DIRETORIO_DO_REPOSITORIO>
+git clone git@github.com:lucasmaiamoreira/travel_agent.git
+cd travel_agent.git
 ```
 
 2. Instalar Dependências
