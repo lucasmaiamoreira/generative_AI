@@ -1,51 +1,19 @@
-# Agente de Viagem Virtual com Streamlit e Ollama
+# Análise de Organizações na Seção "Mercado" (Q1 2015)
 
-Este projeto utiliza o Streamlit para criar uma aplicação de agente de viagem virtual que se comunica com o modelo `llama3` através da API do Ollama.
+Este projeto realiza uma análise das organizações mencionadas nas notícias da seção "Mercado" do site Folha UOL News no primeiro trimestre de 2015. Utiliza técnicas de Reconhecimento de Entidades Nomeadas (NER) para extrair e contar as organizações mencionadas.
 
-## Pré-requisitos
+## Requisitos
 
-Antes de começar, verifique se você possui os seguintes pré-requisitos:
+- Python 3.10 ou superior
+- Pip (gerenciador de pacotes do Python)
 
-- **Python**: Versão 3.10 ou superior
-- **pip**: Gerenciador de pacotes do Python
-- **curl**: Ferramenta para transferir dados com URL
+## Instalação
 
-## Instalação do Ollama
+1. Clone este repositório:
+   ```bash
+   git clone git@github.com:lucasmaiamoreira/uol_market_analysis.git
+   cd uol_market_analysis
 
-### 1. Instalar Ollama
-
-Para instalar o Ollama, execute o seguinte comando:
-
-```
-curl -fsSL https://ollama.com/install.sh | sh
-```
-
-### 2. Iniciando servidor Ollama:
-
-```
-ollama serve 
-```
-
-### 3. Baixando modelo llama3 para usar no projeto:
-
-```
-ollama run llama3
-```
-
-Obs.: Qualquer problema na instalação do Ollama é possível verificar no site oficial da aplicação: https://ollama.com/
-
-
-#### Instalação e Configuração da Aplicação
-
-
-1. Clonar o Repositório
-
-Clone este repositório para a sua máquina local:
-
-```
-git clone git@github.com:lucasmaiamoreira/travel_agent.git
-cd travel_agent
-```
 
 2. Instalar Dependências
 
@@ -57,11 +25,15 @@ pip install -r requirements.txt
 
 #### Executando a Aplicação
 
-Para iniciar a aplicação Streamlit, execute o seguinte comando:
+- Abra o arquivo analise_NER.ipynb em um ambiente de Jupyter Notebook.
+- Execute as células do notebook.
 
-```
-streamlit run agente_de_viagem.py
-```
+#### Resultados
+O script gera os seguintes arquivos de saída:
+
+- organization_ranking_q1_2015.csv: Um arquivo CSV contendo as organizações mencionadas e sua frequência.
+- report_q1_2015.txt: Um relatório detalhado em formato de texto.
+
 
 #### Autor
 Este projeto foi desenvolvido por Lucas Maia Moreira.
