@@ -35,7 +35,7 @@ ollama run llama3
 Obs.: Qualquer problema na instalação do Ollama é possível verificar no site oficial da aplicação: https://ollama.com/
 
 
-##### Instalação e Configuração da Aplicação
+#### Instalação e Configuração da Aplicação
 
 
 1. Clonar o Repositório
