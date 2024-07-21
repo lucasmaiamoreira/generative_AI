@@ -44,7 +44,7 @@ Clone este repositório para a sua máquina local:
 
 ```
 git clone git@github.com:lucasmaiamoreira/travel_agent.git
-cd travel_agent.git
+cd travel_agent
 ```
 
 2. Instalar Dependências
